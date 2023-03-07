@@ -37,8 +37,8 @@ Here's the screenshot of the design, both 1080px and mobile design.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/tchock42/Summary-Component
+- Live Site URL: https://relaxed-taffy-f5bfb7.netlify.app
 
 ## My process
 
