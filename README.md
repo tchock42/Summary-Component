@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](screenshot.png)
 
 Here's the screenshot of the design, both 1080px and mobile design.
 
