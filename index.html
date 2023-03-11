@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preload" href="css/styles.css" as = "style">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="caja two-columns">
+    <div class="result"> <!--caja azul-->
+      <div class="result__text">
+        <h3>Your Result</h3><!--elemento1-->
+      </div>  
+      <div class="score"><!--elemento 2-->
+        <h1>76</h1>
+        <p> of 100</p>
+      </div>
+      <div class="great"> <!--elemento 3-->
+        <h2>Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="white-box">
+      <h4>Summary</h4>
+      <div class="table-button">
+        
+        <div class="table">
+          <div class="list">
+            <div class="element reaction"><img src="assets/images/icon-reaction.svg" class="shape"><p class="icon reaction__color">Reaction</p><p class="category">80<span class="slash">/</span><span class="scores">100</span></p></li>
+            </div>
+
+            <div class="element memory"><img src="assets/images/icon-memory.svg" class="shape"><p class="icon memory__color">Memory</p><p class="category">92<span class="slash">/</span><span class="scores">100</span></p></li>
+              </div>
+
+            <div class="element verbal"><img src="assets/images/icon-verbal.svg" class="shape"><p class="icon verbal__color">Verbal</p><p class="category">61<span class="slash">/</span><span class="scores">100</span></p></li>
+              </div>
+            <div class="element visual"><img src="assets/images/icon-visual.svg"  class="shape"><p class="icon visual__color">Visual</p><p class="category">72<span class="slash">/</span><span class="scores">100</span></p></li>
+              </div>
+          </div>
+        </div>
+        <div class="button">
+            <a class="boton" href="#">Continue</a>
+        </div>
+
+      </div>
+    </div>
+  </div> <!--Cierra div de caja-->
+  <!--<script src="js/scripts.js"></script>-->
+</body>
+</html>
